@@ -75,6 +75,12 @@
     --border: var(--lightgray);
   }
 
+  &[data-callout="definition"] {
+    --color: #89694a;
+    --border: #89694a44;
+    --bg: #89694a10;
+  }
+
   &.is-collapsed > .callout-title > .fold {
     transform: rotateZ(-90deg);
   }
