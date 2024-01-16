@@ -26,13 +26,8 @@
   }
 
   &[data-callout="info"],
+  &[data-callout="seealso"],
   &[data-callout="todo"] {
-    --color: #00b8d4;
-    --border: #00b8d444;
-    --bg: #00b8d410;
-  }
-
-  &[data-callout="seealso"] {
     --color: #00b8d4;
     --border: #00b8d444;
     --bg: #00b8d410;

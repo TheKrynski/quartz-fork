@@ -74,7 +74,7 @@ const callouts = {
   example: icons.listIcon,
   quote: icons.quoteIcon,
   definition: icons.bookMarkedIcon,
-  seealso: icons.waypointsIcon,
+  seeAlso: icons.waypointsIcon,
 }
 
 const calloutMapping: Record<string, keyof typeof callouts> = {
@@ -106,7 +106,7 @@ const calloutMapping: Record<string, keyof typeof callouts> = {
   quote: "quote",
   cite: "quote",
   definition: "definition",
-  seealso: "seealso",
+  seealso: "seeAlso",
 }
 
 function canonicalizeCallout(calloutName: string): keyof typeof callouts {
