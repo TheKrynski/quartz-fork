@@ -26,7 +26,6 @@
   }
 
   &[data-callout="info"],
-  &[data-callout="seealso"],
   &[data-callout="todo"] {
     --color: #00b8d4;
     --border: #00b8d444;
@@ -80,6 +79,18 @@
     --color: #89694a;
     --border: #89694a44;
     --bg: #89694a10;
+  }
+
+  &[data-callout="seealso"] {
+    --color: #00b8d4;
+    --border: #00b8d444;
+    --bg: #00b8d410;
+  }
+
+  &[data-callout="diagram"] {
+    --color: #6be2e0;
+    --border: #6be2e044;
+    --bg: #6be2e010;
   }
 
   &.is-collapsed > .callout-title > .fold {
